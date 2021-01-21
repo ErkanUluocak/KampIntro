@@ -6,9 +6,9 @@ namespace Donguler
     {
         static void Main(string[] args)
         {
-            string kurs1 = "Yazılım Geliştirici Yetiştirme Kampı";
-            string kurs2 = "Programlamaya Başlangıç için temel kurs";
-            string kurs3 = "Programlamaya Başlangıç için temel kurs";
+            //string kurs1 = "Yazılım Geliştirici Yetiştirme Kampı";
+            //string kurs2 = "Programlamaya Başlangıç için temel kurs";
+            //string kurs3 = "Programlamaya Başlangıç için temel kurs";
 
             //array - dizi
 

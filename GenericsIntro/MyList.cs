@@ -16,7 +16,7 @@ namespace GenericsIntro
         public void Add(T item)
         {
             T[] tempArray = items; //new lediğimiz anda referans numarası kaybolduğu için geçiçi diziye (tempArray'e) tutturuyoruz. tempArray'in yeni referansı items'ın referansı.
-            
+
             items = new T[items.Length + 1];
             for (int i = 0; i < tempArray.Length; i++) //tempArray'in bütün elemanlarını items'a geri atıyoruz
             {
@@ -24,6 +24,16 @@ namespace GenericsIntro
             }
 
             items[items.Length - 1] = item; // neden -1 6 elemanlıysa 5. index'i vermek için sıfırdan başladığı için
+        }
+
+        public int Lenght
+        {
+            get { return items.Length; }
+        }
+
+        public T[] Items
+        {
+            get { return items; }
         }
     }
 }
